@@ -1,1 +1,1 @@
-# Wekkly_Report_Algoritma_24343001_Auditya-Merosya-Putri
+# Weekly_Report_Algoritma_24343001_Auditya-Merosya-Putri
