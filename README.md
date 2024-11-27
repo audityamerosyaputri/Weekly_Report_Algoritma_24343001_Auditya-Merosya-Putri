@@ -16,7 +16,6 @@ About Me</a>
   
 
 
----
 ## Penjelasan Singkat Semua Modul
 
 ### Joob Sheet 1 - Algoritma, Pemrograman, dan IDE
