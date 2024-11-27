@@ -58,22 +58,31 @@ About Me</a>
 
 **Pokok Materi**
 1. **Struktur Dasar Program C**
+   
    Ada dua stuktur program C:
--Bagian include: `#include <stdio.h>`
-
-   - **Include:** Digunakan untuk mengimpor file header (seperti `stdio.h`) yang menyediakan fungsi tambahan seperti `printf`.
-   - **Main Function:** Fungsi utama yang wajib ada dalam program, tempat eksekusi dimulai.
-   - **Statements:** Perintah dalam program yang harus diakhiri dengan semikolon `;`.
+   - Bagian include: `#include <stdio.h>`
+   - Blok fungsi main : berisi statement.
+     
+   Syntax bahas C:
+   - **Include:** kode #include berfungsi mengimpor fungsi-fungsi yang sudah didefinisikan pada header file yang berisi definisi fungsi yang sudah dibuat untuk mengimpor file header (seperti `stdio.h`) yang menyediakan fungsi tambahan seperti `printf`.
+   - **Header file:** adalah file yang berisi definisi fungsi yang sudah dibuat.
+   - **Main Function:** fungsi utama yang wajib ada dalam program, fungsi ini akan dieksekusi pertama kali saat program dijalankan. Fungsi ini ada dua: mengembalikan nilai setelah dieksekusi (`int main()`) atau tidak mengembalikan nilai apapun (`void main()`).
+   - **Statements:** perintah- perintah dalam program yang harus diakhiri dengan tanda semikolon `;`.
+   - **Semicolon:** tanda yang digunakan untuk menandakan berakhirnya suatu perintah.
+   - **Identifier:** nama yang digunakan untuk mengidentifikasi variabel, fungsi, atau semua item yang didefinisikan oleh programmer.
    - **Comments:** Digunakan untuk menambahkan catatan dalam kode tanpa memengaruhi eksekusi.
    - **Whitespace:** Spasi, tab, atau baris baru yang membantu keterbacaan kode.
 
-3. **Proses Input dan Output**
-   - **Output:**
-     - **`printf`:** Fungsi utama untuk mencetak teks atau variabel ke layar.
-     - **`puts`:** Alternatif fungsi untuk mencetak string (otomatis menambahkan baris baru).
-   - **Input:**
-     - **`scanf`:** Digunakan untuk menerima input dengan format tertentu (memerlukan simbol `&` untuk variabel).
+2. **Proses Input dan Output**
+   - **Input:** data yang dimasukan ke program biasanya diambil dari perangakat inputan seperti keyboard.
+     Ada dua fungsi  untuk menampilkan input
+     - **`scanf`:** Digunakan mengambil input dari pengguna, menggunakan format sesuai dengan tipe data yang ingin diambil (misalnya `%d` untuk integer).
      - **`gets` dan `fgets`:** Untuk menerima input string, namun `gets` tidak direkomendasikan karena rawan error.
+   - **Proses:** adalah langkah-langkah yang harus dilakukan program untuk menghasilkan output.
+   - **Output:**
+     Ada dua fungsi untuk menampilkan output:
+     - **`printf`:** Fungsi utama untuk mencetak teks atau variabel ke layar dalam bentuk teks (string).
+     - **`puts`:** Fungsi yang mencetak teks atau variabel tanpa memerlukan format(otomatis menambahkan baris baru).
 
 
 
