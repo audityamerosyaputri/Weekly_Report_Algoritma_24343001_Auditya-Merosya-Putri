@@ -278,22 +278,32 @@ Berdasarkan jumlah operand(**Operand** adalah nilai asal yang dipakai dalam sebu
 ### Joob Sheet 6 - _Flow Control: Looping_
 
 ### **Tujuan Pembelajaran:**
-Mahasiswa diharapkan mampu memahami, menjelaskan, dan mengimplementasikan perulangan (looping) dalam pemrograman menggunakan IDE.
+1. Mampu menjelaskan dan mengimplementasikan Looping: Perulangan dalam pemrograman menggunakan IDE.
 
 ### **Pokok Materi:**
+**Flow control** adalah konstruksi aliran kontrol yang memungkinkan sepotong kode untuk dieksekusi secara berulang kali hingga beberapa kondisi terpenuhi. Berguna untuk menghindari penulisan kode yang berulang-ulang, yang meningkatkan efisiensi penulisan program. **Efisiensi Perulangan** adalah perulangan bisa menghemat waktu dan kode, memungkinkan program mencetak ribuan keluaran tanpa menulis kode secara manual.
+
+Secara umum, dibagi menjadi dua kelompok flow control, Yaitu: 
+- Counted Loop merupakan perulangan yang jelas dan sudah tentu banyak kali perulangannya, seperti pada **for** loop.
+- Uncounted Loop, merupakan perulangan yang tidak jelas berapa kali ia harus mengulang atau jenis perulangan yang bergantung pada kondisi tertentu, seperti pada **while** dan **do while** loop.
 
 1. **Perulangan For**  
    - Termasuk dalam **counted loop** karena jumlah pengulangan telah ditentukan.
    - Struktur: 
      ```c
-     for (init; condition; increment/decrement) {
-         // Blok kode
+     for (int i = 0; i < 10; i++) {
+     printf("Tutorial Pemrograman C!\n");
      }
      ```
    - Dapat digunakan untuk menghitung maju atau mundur sesuai kebutuhan.
+   - Kondisi ini akan menentukan:
+     • Hitungan akan dimulai dari 0 (i = 0);
+     • Hitungannya sampai berapa? Sampai i < 10;
+     • Lalu di setiap perulangan i akan bertambah +1 (i++). Variabel i pada perulangan for berfungsi untuk menyimpan nilai hitungan.
 
-2. **Perulangan While**  
+3. **Perulangan While**  
    - Termasuk **uncounted loop**, jumlah pengulangan bergantung pada kondisi.
+   - Perulangan while juga dapat menjadi perulangan yang counted loop dengan memberikan counter di dalamnya.
    - Struktur:
      ```c
      while (condition) {
@@ -301,9 +311,11 @@ Mahasiswa diharapkan mampu memahami, menjelaskan, dan mengimplementasikan perula
      }
      ```
    - Pengulangan terus berjalan selama kondisi bernilai **true**.
+   - Perulangan ini akan terus meminta input dari pengguna selama pengguna menjawab `y` dan akan berhenti ketika menjawab `t`
 
-3. **Perulangan Do While**  
+4. **Perulangan Do While**  
    - Sama seperti **while**, tetapi **blok kode dijalankan setidaknya satu kali** sebelum kondisi diperiksa.
+   -  Perulangan do while akan mengecek kondisi di belakang (sesudah mengulang), sedangkan while akan mencek kondisi di depan atau awal (sebelum mengulang).
    - Struktur:
      ```c
      do {
@@ -312,20 +324,9 @@ Mahasiswa diharapkan mampu memahami, menjelaskan, dan mengimplementasikan perula
      ```
    - Cocok untuk kondisi yang memerlukan eksekusi awal sebelum validasi.
 
-4. **Perulangan Bersarang (Nested Loop)**  
+5. **Perulangan Bersarang (Nested Loop)**  
    - Pengulangan di dalam pengulangan.
    - Contoh: Menggunakan dua perulangan **for** untuk mencetak pola berbasis matriks.
-
-### **Catatan Penting:**
-
-- **Counted Loop**:  
-  Jenis perulangan dengan jumlah iterasi yang sudah ditentukan sejak awal, seperti pada **for** loop.
-
-- **Uncounted Loop**:  
-  Jenis perulangan yang bergantung pada kondisi tertentu, seperti pada **while** dan **do while** loop.
-
-- **Efisiensi Perulangan**:  
-  Perulangan menghemat waktu dan kode, memungkinkan program mencetak ribuan keluaran tanpa menulis kode secara manual.
 
 
 
