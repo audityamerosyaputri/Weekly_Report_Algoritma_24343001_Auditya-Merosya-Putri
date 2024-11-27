@@ -18,7 +18,7 @@ About Me</a>
 
 ## Penjelasan Singkat Semua Modul
 
-### Joob Sheet 1 - Algoritma, Pemrograman, dan IDE
+### Joob Sheet 1 - _Algoritma, Pemrograman, dan IDE_
 
 **1. Tujuan Pembelajaran**
 1. Memahami dan mengaplikasikan algoritma melalui pemrograman.
@@ -50,7 +50,7 @@ About Me</a>
      
 
 
-### Joob Sheet 2 - Pemrograman Dasar C
+### Joob Sheet 2 - _Pemrograman Dasar C_
 
 **Tujuan Pembelajaran**
 1. Mampu memahami struktur dasar penulisan bahasa pemrograman C.
@@ -86,7 +86,7 @@ About Me</a>
 
 
 
-### Joob Sheet 3 - Variabel, Konsanta, dan Tipe Data
+### Joob Sheet 3 - _Variabel, Konsanta, dan Tipe Data_
 
 **Tujuan Pembelajaran**
 1. Mampu menjelaskan dan mengimplementasikan Variables, Constanta, Tipe Data, Konversi Tipe Data, Keywords dalam pemrograman menggunakan IDE.
@@ -94,6 +94,7 @@ About Me</a>
 **Pokok Materi**
 1. **Variabel**
    - Tempat penyimpanan sementara untuk nilai yang digunakan dalam program.
+     
 2. **Aturan Penulisan Variabel**
      - Nama tidak boleh diawali angka atau simbol.
      - Tidak boleh menggunakan kata kunci seperti `if`, `int`, `void`.
@@ -104,6 +105,7 @@ About Me</a>
      int tinggi = 175;
      float berat = 60.5;
      ```
+     
 3. **Tipe Data**
    - Jenis nilai yang akan tersimpan dalam variabel. Pengelompokan data untuk memberitahu compiler bagaimana programmer ingin mengolah data tersebut.
    - **Tipe Data Dasar**
@@ -122,32 +124,34 @@ About Me</a>
      - `%d` untuk bilangan bulat.
      - `%f` untuk bilangan desimal.
      - `%c` untuk karakter.
+       
 4. **Konversi Tipe Data**
    - proses mengubah tipe data menjadi tipe yang lain.
      ```c
      int a = 10, b = 4;
      float result = (float) a / b;  // Mengubah hasil pembagian menjadi float
      ```
+     
 5. **Konstanta**
    - Nilai tetap yang tidak bisa diubah selama program berjalan.
    - Deklarasi konstanta:
      - **`#define`** (tidak perlu tipe data, tanpa semicolon).
      - **`const`** (memerlukan tipe data, dengan semicolon).
+       
 6. **Keywords**
    - Kata kunci bawaan bahasa C yang memiliki fungsi khusus, seperti `int`, `return`, `void`, dll.
    - Tidak dapat digunakan sebagai nama variabel.
 
 
 
-### Joob Sheet 4 - Operator
+### Joob Sheet 4 - _Operator_
 
 ### **Tujuan Pembelajaran:**
 1. Mampu menjelaskan dan mengimplementasikan Operator dalam pemrograman menggunakan IDE.
    
 ### **Pokok Materi:**
-
 **`Operator`** adalah  Simbol yang digunakan untuk melakukan operasi tertentu.
-Berdasarkan jumlah operand(**Operand**adalah nilai asal yang dipakai dalam sebuah proses operasi), operator dibagi menjadi 3 jenis:
+Berdasarkan jumlah operand(**Operand** adalah nilai asal yang dipakai dalam sebuah proses operasi), operator dibagi menjadi 3 jenis:
 1) Operator Unary, mempunyai 1 operand
 2) Operator Binary, mempunyai 2 operand
 3) Operator Ternary, mempunyai 3 operand
@@ -220,13 +224,12 @@ Berdasarkan jumlah operand(**Operand**adalah nilai asal yang dipakai dalam sebua
 
 
 
-### Modul 5 - _Flow Control: Decision Making_
+### Joob Sheet 5 - _Flow Control: Decision Making_
 
 ### **Tujuan Pembelajaran:**
-Mahasiswa diharapkan mampu menjelaskan dan mengimplementasikan pengambilan keputusan (decision making) dalam pemrograman menggunakan IDE.
+1.Mampu menjelaskan dan mengimplementasikan Flow Control: Pengambilan Keputusan dalam pemrograman menggunakan IDE.
 
 ### **Pokok Materi:**
-
 1. **If Statement:**
    - Struktur dasar pengambilan keputusan.
    - Mengeksekusi blok kode jika kondisi bernilai **true**.
