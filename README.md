@@ -44,6 +44,7 @@ About Me</a>
    - IDE merupakan text editor yang memiliki compiler dan debugger sehingga memungkinkan sebuah program dapat ditulis, diuji, dan dijalankan dalam satu aplikasi.
    - Contoh IDE: DevC++, Visual Studio, Code Blocks, Net beans.
 5. **Persiapan Pemrograman C**
+   
    Untuk mulai memrogram dengan bahasa C membutuhkan dua alat utama:
    - Teks Editor: Untuk menulis kode program.
    - Compiler: Untuk mengubah kode C menjadi bahasa mesin yang dapat dimengerti oleh komputer.
