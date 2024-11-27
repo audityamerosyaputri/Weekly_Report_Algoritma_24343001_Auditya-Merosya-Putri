@@ -139,20 +139,27 @@ About Me</a>
 
 
 
-### Modul 4 - Operator
+### Joob Sheet 4 - Operator
 
 ### **Tujuan Pembelajaran:**
-Mahasiswa diharapkan mampu memahami, menjelaskan, dan mengimplementasikan berbagai jenis operator dalam pemrograman menggunakan IDE.
-
+1. Mampu menjelaskan dan mengimplementasikan Operator dalam pemrograman menggunakan IDE.
+   
 ### **Pokok Materi:**
 
+**`Operator`** adalah  Simbol yang digunakan untuk melakukan operasi tertentu.
+Berdasarkan jumlah operand(**Operand**adalah nilai asal yang dipakai dalam sebuah proses operasi), operator dibagi menjadi 3 jenis:
+1) Operator Unary, mempunyai 1 operand
+2) Operator Binary, mempunyai 2 operand
+3) Operator Ternary, mempunyai 3 operand
+   
 1. **Operator Aritmatika:**
    Digunakan untuk operasi matematika dasar:
-   - Penjumlahan (+)
-   - Pengurangan (-)
-   - Perkalian (*)
-   - Pembagian (/)
-   - Sisa bagi (%)
+   - Penjumlahan `+`
+   - Pengurangan `-`
+   - Perkalian `*`
+   - Pembagian `/`
+   - Sisa bagi `%`
+     Pembagian antara dua bilangan bulat `int` menghasilkan hasil pembulatan. Untuk pembagian pecahan, gunakan tipe data `float` atau `double`.
 
 2. **Operator Penugasan (Assignment Operator):**
    Memberikan nilai atau tugas kepada variabel, dengan beberapa kombinasi operasi:
@@ -186,9 +193,9 @@ Mahasiswa diharapkan mampu memahami, menjelaskan, dan mengimplementasikan berbag
    - Pernyataan 1: **A seorang programmer** (true)
    - Pernyataan 2: **A menggunakan Linux** (true)
    - **Logika AND:** Akan bernilai **true** jika kedua pernyataan benar.
-
+     
 5. **Operator Bitwise:**
-   Operasi pada level bit (biner), meliputi:
+   Operasi pada level bit (biner) dari sebuah nilai, meliputi:
    - AND (`&`): Bit 1 jika kedua operand bernilai 1.
    - OR (`|`): Bit 1 jika salah satu operand bernilai 1.
    - XOR (`^`): Bit 1 jika kedua operand berbeda.
@@ -196,11 +203,14 @@ Mahasiswa diharapkan mampu memahami, menjelaskan, dan mengimplementasikan berbag
    - Left Shift (`<<`): Menggeser bit ke kiri.
    - Right Shift (`>>`): Menggeser bit ke kanan.
 
-   **Contoh:** 
-   - Nilai desimal 6 (0110) dan 3 (0011).
-   - Operasi AND menghasilkan 2 (0010).
-
-6. **Operator Lain-Lain:**
+   **Contoh:**
+   - Misalkan kita punya nilai 6 dan 3. Nilai 6 dan 3 kemudian kita ubah ke dalam bentuk bilangan biner. Sehingga akan menjadi seperti ini:
+   ```c
+   6 = 0110
+   3 = 0011
+   ```
+   
+7. **Operator Lain-Lain:**
    Operator tambahan dalam pemrograman:
    - Alamat memori (`&`): Mengambil alamat suatu variabel.
    - Pointer (`*`): Digunakan untuk membuat pointer.
