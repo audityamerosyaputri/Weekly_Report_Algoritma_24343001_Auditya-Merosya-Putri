@@ -15,6 +15,7 @@ About Me</a>
 # Repository ini mengandung semua Pelajaran dari materi mata kuliah Agloritma Pemrograman dengan Pak Randi Proska Sandra S.Pd, M.Sc selaku dosen pengampu mata kuliah ini.
   
 
+---
 ## Penjelasan Singkat Semua Modul
 
 ### Joob Sheet 1 - Algoritma, Pemrograman, dan IDE
