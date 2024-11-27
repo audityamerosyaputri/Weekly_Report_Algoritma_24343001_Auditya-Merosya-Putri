@@ -86,44 +86,54 @@ About Me</a>
 
 
 
-### Modul 3 - Variabel, Konsanta, dan Tipe Data
+### Joob Sheet 3 - Variabel, Konsanta, dan Tipe Data
 
-#### **Tujuan Pembelajaran**
-1. Memahami dan mengimplementasikan variabel, konstanta, tipe data, konversi tipe data, dan kata kunci dalam pemrograman menggunakan IDE.
+**Tujuan Pembelajaran**
+1. Mampu menjelaskan dan mengimplementasikan Variables, Constanta, Tipe Data, Konversi Tipe Data, Keywords dalam pemrograman menggunakan IDE.
 
-#### **Pokok Materi**
-
+**Pokok Materi**
 1. **Variabel**
-   - Tempat penyimpanan sementara untuk data yang digunakan dalam program.
-   - Aturan:
+   - Tempat penyimpanan sementara untuk nilai yang digunakan dalam program.
+2. **Aturan Penulisan Variabel**
      - Nama tidak boleh diawali angka atau simbol.
      - Tidak boleh menggunakan kata kunci seperti `if`, `int`, `void`.
      - Bersifat *case-sensitive* (misalnya, `Nama` dan `nama` dianggap berbeda).
-   - Penulisan: 
+     - Disarankan menggunakan undrscore untuk nama variabel yang lebih dari dua suku kata.
+     - Penulisan:
      ```c
-     int tinggi;
-     int berat = 49;
+     int tinggi = 175;
+     float berat = 60.5;
      ```
-2. **Konstanta**
-   - Nilai tetap yang tidak bisa diubah selama program berjalan.
-   - Deklarasi:
-     - **`#define`** (tidak perlu tipe data, tanpa titik koma).
-     - **`const`** (memerlukan tipe data, dengan titik koma).
-
 3. **Tipe Data**
-   - **Tipe Data Dasar:**
-     - `char`: Menyimpan satu karakter.
-     - `int`: Menyimpan bilangan bulat.
-     - `float` dan `double`: Menyimpan bilangan desimal (double lebih presisi).
-   - **Tipe Data Khusus:**
-     - `void`: Menunjukkan tidak ada data.
-     - `pointer`, `array`, `structure`, `enum`: Digunakan untuk struktur data yang lebih kompleks.
+   - Jenis nilai yang akan tersimpan dalam variabel. Pengelompokan data untuk memberitahu compiler bagaimana programmer ingin mengolah data tersebut.
+   - **Tipe Data Dasar**
+     - `char`: Menyimpan satu karakter (misal: 'a').
+     - `int`: Menyimpan bilangan bulat (misal: 100).
+     - `float`: Menyimpan bilangan pecahan (misal: 3.14).
+     - `double`: Menyimpan bilangan pecahan dengan presisi lebih tinggi daripada float.
+   - **Tipe Data Khusus**
+     - `void`: Menyatakan tidak ada tipe data atau nilai (sering digunakan untuk fungsi yang tidak mengembalikan nilai).
+     - Enum (bentukan)
+   - **Tipe Data Turunan:** digunakan untuk stuktur data yang lebih kompleks.
+     - `array`
+     - `stucture`
+     - `pointer`
    - Format specifier untuk output/input:
      - `%d` untuk bilangan bulat.
      - `%f` untuk bilangan desimal.
      - `%c` untuk karakter.
-
-4. **Keywords**
+4. **Konversi Tipe Data**
+   - proses mengubah tipe data menjadi tipe yang lain.
+     ```c
+     int a = 10, b = 4;
+     float result = (float) a / b;  // Mengubah hasil pembagian menjadi float
+     ```
+5. **Konstanta**
+   - Nilai tetap yang tidak bisa diubah selama program berjalan.
+   - Deklarasi konstanta:
+     - **`#define`** (tidak perlu tipe data, tanpa semicolon).
+     - **`const`** (memerlukan tipe data, dengan semicolon).
+6. **Keywords**
    - Kata kunci bawaan bahasa C yang memiliki fungsi khusus, seperti `int`, `return`, `void`, dll.
    - Tidak dapat digunakan sebagai nama variabel.
 
