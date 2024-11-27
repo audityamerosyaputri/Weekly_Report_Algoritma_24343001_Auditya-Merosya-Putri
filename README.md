@@ -230,37 +230,52 @@ Berdasarkan jumlah operand(**Operand** adalah nilai asal yang dipakai dalam sebu
 1.Mampu menjelaskan dan mengimplementasikan Flow Control: Pengambilan Keputusan dalam pemrograman menggunakan IDE.
 
 ### **Pokok Materi:**
+**`Flow Control`** adalah merupakan pernyataan yang memungkinkan pemrogram untuk mengubah jalur eksekusi normal melalui program.
+
 1. **If Statement:**
    - Struktur dasar pengambilan keputusan.
-   - Mengeksekusi blok kode jika kondisi bernilai **true**.
-   - Contoh: Menampilkan pesan diskon jika total belanja lebih dari Rp 100.000.
+   - Percabangan yang hanya memiliki satu blok pilihan saat kondisi bernilai **true**
+   - Contoh: Menampilkan pesan diskon jika total belanja lebih dari Rp 500.000.
 
 2. **If Else Statement:**
    - Memiliki dua blok pilihan: satu untuk kondisi **true** dan lainnya untuk **false**.
-   - Contoh: Menampilkan pesan berbeda tergantung benar atau salahnya input password.
+   - Contoh: Apabila password benar, pesan yang akan ditampilkan: “Selamat datang bos!" Tapi kalau salah, pesan yang ditampilkan: “Password salah, coba lagi!".
 
 3. **If Else If Statement:**
    - Memiliki lebih dari dua blok pilihan.
-   - Digunakan untuk beberapa kondisi secara berurutan.
-   - Contoh: Memberikan nilai huruf berdasarkan rentang angka (A, B, C, dll.).
+   - Digunakan untuk beberapa kondisi secara berurutan dan dimulai dari yang terbesar ke kecil.
+   - Contoh:
+     ```c
+     if (nilai >= 80) {
+    grade = 'A';
+   } else if (nilai >= 70) {
+    grade = 'B';
+   } else if (nilai >= 60) {
+    grade = 'C';
+   } else {
+    grade = 'D';
+   }
+   ```
 
-4. **Switch Case:**
+5. **Switch Case:**
    - Alternatif dari if/else/if untuk membandingkan nilai variabel dengan beberapa case.
-   - Setiap **case** harus diakhiri dengan **break**, kecuali pada bagian default.
+   - Setiap **case** harus diakhiri dengan **break** untuk menghentikan pencarian lebih lanjut setelah satu kondisi terpenuhi, kecuali pada bagian default.
+   - Setiap pilihan **case** dapat mengarah ke eksekusi blok kode tertentu.
    - Contoh: Program untuk menentukan grade berdasarkan input nilai.
 
-5. **Operator Ternary:**
+6. **Operator Ternary:**
    - Bentuk singkat dari **if/else**.
    - Sintaks: `kondisi ? nilai_untuk_true : nilai_untuk_false`.
    - Digunakan untuk keputusan sederhana dalam satu baris.
+   - Contoh : Jika kondisi nilai >= 60 bernilai benar, maka hasil akan berisi 'Lulus', jika salah, maka 'Gagal'.
 
-6. **Percabangan Bersarang (Nested If):**
+7. **Percabangan Bersarang (Nested If):**
    - Penggunaan blok **if** di dalam blok **if** lainnya.
    - Digunakan untuk keputusan kompleks dengan banyak kondisi.
 
 
 
-### Modul 6 - _Flow Control: Looping_
+### Joob Sheet 6 - _Flow Control: Looping_
 
 ### **Tujuan Pembelajaran:**
 Mahasiswa diharapkan mampu memahami, menjelaskan, dan mengimplementasikan perulangan (looping) dalam pemrograman menggunakan IDE.
