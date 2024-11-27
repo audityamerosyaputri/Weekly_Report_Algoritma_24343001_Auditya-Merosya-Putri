@@ -20,9 +20,9 @@ About Me</a>
 ### Joob Sheet 1 - Algoritma, Pemrograman, dan IDE
 
 **1. Tujuan Pembelajaran**
-- Memahami dan mengaplikasikan algoritma melalui pemrograman.
-- Memahami cara instalasi, fungsi, dan penggunaan IDE (Integrated Development Environment).
-- Membuat, mengkompilasi, dan menganalisis kesalahan dalam pemrograman menggunakan IDE.
+1. Memahami dan mengaplikasikan algoritma melalui pemrograman.
+2. Memahami cara instalasi, fungsi, dan penggunaan IDE (Integrated Development Environment).
+3. Membuat, mengkompilasi, dan menganalisis kesalahan dalam pemrograman menggunakan IDE.
 
 **2. Pokok Materi**
 1. **Algoritma**:
