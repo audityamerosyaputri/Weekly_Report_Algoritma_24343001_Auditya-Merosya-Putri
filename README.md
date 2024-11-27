@@ -63,7 +63,7 @@ About Me</a>
    - Bagian include: `#include <stdio.h>`
    - Blok fungsi main : berisi statement.
      
-   Syntax bahas C:
+   Syntax bahasa C:
    - **Include:** kode #include berfungsi mengimpor fungsi-fungsi yang sudah didefinisikan pada header file yang berisi definisi fungsi yang sudah dibuat untuk mengimpor file header (seperti `stdio.h`) yang menyediakan fungsi tambahan seperti `printf`.
    - **Header file:** adalah file yang berisi definisi fungsi yang sudah dibuat.
    - **Main Function:** fungsi utama yang wajib ada dalam program, fungsi ini akan dieksekusi pertama kali saat program dijalankan. Fungsi ini ada dua: mengembalikan nilai setelah dieksekusi (`int main()`) atau tidak mengembalikan nilai apapun (`void main()`).
