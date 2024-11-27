@@ -45,28 +45,27 @@ About Me</a>
    Untuk mulai memrogram dengan bahasa C membutuhkan dua alat utama:
    - Teks Editor: Untuk menulis kode program.
    - Compiler: Untuk mengubah kode C menjadi bahasa mesin yang dapat dimengerti oleh komputer.
-
-**3. Aktivitas dan Latihan**
-- Membuat program untuk mencetak **"Hello World!"** ke layar.
-- Menjalankan program menggunakan **CMD** dan **IDE**.
-- Memberikan kesimpulan dan menjelaskan setiap baris program..
+     
 
 
-### Modul 2 - Pemrograman Dasar C
+### Joob Sheet 2 - Pemrograman Dasar C
 
-#### **Tujuan Pembelajaran**
-1. Memahami struktur dasar penulisan program dalam bahasa C.
-2. Mengimplementasikan sintaks dasar, proses input, dan output menggunakan IDE.
+**Tujuan Pembelajaran**
+1. Mampu memahami struktur dasar penulisan bahasa pemrograman C.
+2. Mampu mengimplementasikan Basic Syntax C, Proses Input & Ouput dalam pemrograman menggunakan IDE.
 
-#### **Pokok Materi**
+**Pokok Materi**
 1. **Struktur Dasar Program C**
+   Ada dua stuktur program C:
+-Bagian include: `#include <stdio.h>`
+
    - **Include:** Digunakan untuk mengimpor file header (seperti `stdio.h`) yang menyediakan fungsi tambahan seperti `printf`.
    - **Main Function:** Fungsi utama yang wajib ada dalam program, tempat eksekusi dimulai.
    - **Statements:** Perintah dalam program yang harus diakhiri dengan semikolon `;`.
    - **Comments:** Digunakan untuk menambahkan catatan dalam kode tanpa memengaruhi eksekusi.
    - **Whitespace:** Spasi, tab, atau baris baru yang membantu keterbacaan kode.
 
-2. **Proses Input dan Output**
+3. **Proses Input dan Output**
    - **Output:**
      - **`printf`:** Fungsi utama untuk mencetak teks atau variabel ke layar.
      - **`puts`:** Alternatif fungsi untuk mencetak string (otomatis menambahkan baris baru).
