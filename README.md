@@ -245,17 +245,17 @@ Berdasarkan jumlah operand(**Operand** adalah nilai asal yang dipakai dalam sebu
    - Memiliki lebih dari dua blok pilihan.
    - Digunakan untuk beberapa kondisi secara berurutan dan dimulai dari yang terbesar ke kecil.
    - Contoh:
-     ```c
+```c
      if (nilai >= 80) {
     grade = 'A';
-   } else if (nilai >= 70) {
+} else if (nilai >= 70) {
     grade = 'B';
-   } else if (nilai >= 60) {
+} else if (nilai >= 60) {
     grade = 'C';
-   } else {
+} else {
     grade = 'D';
-   }
-   ```
+}
+```
 
 5. **Switch Case:**
    - Alternatif dari if/else/if untuk membandingkan nilai variabel dengan beberapa case.
