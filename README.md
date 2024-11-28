@@ -333,12 +333,12 @@ Secara umum, dibagi menjadi dua kelompok flow control, Yaitu:
 ### Modul 7 - _Array_
 
 **Tujuan Pembelajaran:**
-1. Memahami dan mengimplementasikan struktur data Array dalam pemrograman menggunakan IDE.
-
+1. Mampu menjelaskan dan mengimplementasikan Data Structure: Array dalam
+pemrograman menggunakan IDE.
 **Pokok Materi:**
 
 **A. Array**
-Array adalah struktur data yang digunakan untuk menyimpan sekumpulan data dalam satu tempat. Setiap elemen dalam array memiliki indeks yang dimulai dari nol (0), yang memudahkan dalam mengakses atau mengganti datanya.
+Array adalah struktur data yang digunakan untuk menyimpan sekumpulan data dalam satu tempat dalam. Array terdiri dari ssetiap elemen dalam array memiliki indeks yang dimulai dari nol (0), yang memudahkan dalam mengakses atau mengganti datanya.
 
 **Cara Membuat Variabel Array:**
 - Membuat array mirip dengan membuat variabel biasa, tetapi perlu menentukan panjang array dengan kurung siku [ ].
