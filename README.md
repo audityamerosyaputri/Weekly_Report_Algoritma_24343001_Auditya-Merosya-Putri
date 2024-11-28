@@ -360,20 +360,15 @@ Array adalah struktur data yang digunakan untuk menyimpan sekumpulan data dengan
 #include <stdio.h>
 
 void main() {
-    //Membuat array kosong
-    int nilai[5];
+    // Membuat array dan mengisi nilai
+    int nilai[5] = {32, 42, 76, 31, 57};
 
-    //Mengisi array
-    nilai[0] = 32;
-    nilai[1] = 42;
-    nilai[2] = 76;
-    nilai[3] = 31;
-    nilai[4] = 57;
-
-    //Mencetak isi array dengan perulangan
+    // Mencetak isi array dengan perulangan
     for(int i = 0; i < 5; i++) {
-        printf("Nilai ke-1: %d\n", nilai[i]);
+        printf("Nilai ke-%d: %d\n", i+1, nilai[i]);
     }
+}
+
 ```
 **Mengambil Panjang Array**
 - Untuk mengambil panjang atau ukuran array bisa dengan fungsi sizeof(), dimana sizeof() akan mengambil ukuran memori dari array. 
