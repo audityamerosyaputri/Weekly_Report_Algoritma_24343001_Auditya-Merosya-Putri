@@ -514,67 +514,77 @@ int main() {
 
 ### Joob Sheet 10 - _Enumerasi dan Struktur_
 
-### **Tujuan Pembelajaran**
-1. Memahami dan mengimplementasikan Enum dan Structure dalam pemrograman menggunakan IDE.
-
-### **Pokok Materi**
+**Tujuan Pembelajaran**
+1. Mampu menjelaskan dan mengimplementasikan Enum dan Structure dalam pemrograman menggunakan IDE.
+   
+**Pokok Materi**
 1. **Enumerasi (Enum):**
-   - Enum adalah tipe data bentukan yang berisi sekumpulan konstanta.
+   - *Enum* adalah tipe data bentukan yang berisi sekumpulan konstanta.
    - Contoh: 
      ```c
-     enum hari {SENIN, SELASA, RABU};
+     enum hari { Senin, Selasa, Rabu, Kamis, Jumat, Sabtu, Minggu };
      ```
-   - Penggunaan enum membantu efisiensi dan fleksibilitas memori.
-   - Bahasa C tidak memiliki boolean secara bawaan, tetapi dapat dibuat menggunakan enum.
-
+     Jika nilai konstanta tidak diisi, maka akan diisi otomatis berdasarkan urutan penulisannya dimulai dari 0.
+   - *Membuat tipe data boolean menggunakan Enum:* C tidak memiliki tipe data boolean secara bawaan, tetapi bisa membuatnya menggunakan Enum dengan nilai true sebagai 1 dan false sebagai 0.
+   - Variabel enum hanya akan mengambil satu nilai dari konstanta yang ada.
+     
 2. **Structure (Struct):**
-   - Struct adalah kumpulan variabel dengan tipe data berbeda dalam satu unit.
+   - *Structure atau struct* adalah kumpulan dari beberapa variabel dengan beragam tipe data yang dibungkus dalam satu varabel.
    - Contoh: 
      ```c
-     struct mahasiswa {
-         char nama[50];
-         int usia;
-     };
+     struct data_tanggal {
+    int tahun;
+    int bulan;
+    int tanggal;
+    };
      ```
-   - Struct dapat digunakan untuk membuat tipe data baru, mendefinisikan struct bersarang, atau mengirim struct sebagai parameter fungsi.
+   - Struct memungkinkan pengelolaan data yang lebih baik. Misalnya, untuk menyimpan data mahasiswa, kita dapat menggunakan struktur untuk menyimpan data nama, umur, dan alamat dalam satu unit, yang lebih terorganisir daripada menggunakan array atau variabel biasa.
 
 3. **Penggunaan Typedef:**
    - Untuk mendefinisikan tipe data baru dari struct agar lebih sederhana dalam penggunaannya.
-
-4. **Struct Bersarang dan Passing Struct:**
+   - Contoh:
+   ```c
+    typedef struct {
+    char nama[50];
+    int umur;
+    } mahasiswa;
+    mahasiswa mhs1;
+   ```
+5. **Struct Bersarang:**
    - Struct dapat mengandung struct lain sebagai elemen.
-   - Struct juga dapat diteruskan sebagai parameter fungsi untuk mempermudah manipulasi data kompleks.
+   - Struct dapat dibuat bersarang (nested). Bersarang artinya ada struct di dalam struct.
+
+6. **Passing Struct ke dalam fungsi**
+   - Struct juga dapat dipassing ke dalam fungsi sebagai parameter fungsi untuk mempermudah data kompleks.
+   
 
 
+### Joob Sheet 11 - _File Handling in C_
 
-### Modul 11 - _File Handling in C_
-
-### **Tujuan Pembelajaran**
+**Tujuan Pembelajaran**
 1. Mampu menjelaskan konsep penulisan dan pembacaan file dalam bahasa pemrograman C.
 2. Mampu mengimplementasikan operasi *write* dan *read* file menggunakan IDE.
 
-### **Pokok Materi**
+**Pokok Materi**
 
-#### **1. Pengantar**
-- Data yang disimpan di variabel akan hilang saat program ditutup.
-- Untuk menyimpan data secara permanen, digunakan file sebagai media penyimpanan.
-- File dapat berupa:
+**1. Pengantar**
+- Data yang disimpan di variabel akan hilang saat program ditutup. Untuk menyimpan data secara permanen, digunakan file sebagai media penyimpanan.
+- File di komputer berupa:
   - **File teks**: Mudah dibaca, seperti `.txt`, `.csv`, dan `.html`.
   - **File biner**: Tersimpan dalam bentuk biner (0 & 1), lebih sulit dibaca tetapi efisien.
 
-#### **2. Membaca File**
-- Fungsi utama untuk membuka file adalah `fopen()`.
-  - Contoh mode yang digunakan:
-    - `r`: Membaca file.
-    - `w`: Menulis ke file (overwrite).
+**2. Membaca File**
+- Fungsi utama untuk membuka file adalah `fopen()` sesuai dengan mode yang diberikan.
+- Berikut mode yang dapat digunakan:
+    - `r`: Membaca file. Jika file tidak ada, fungsi akan mengembalikan NULL.
+    - `w`: Menulis ke file (overwrite). Jika file tidak ada, maka file akan dibuat.
     - `a`: Menambahkan isi file.
 - Contoh membaca file:
   ```c
   FILE *fptr = fopen("file.txt", "r");
   fgets(buff, 255, fptr);
   ```
-  - `fgets()` membaca file per baris.
-
+- Setelah file dibuka maka gunakan fungsi `fgets()` membaca file per baris. Sedangkan untuk membaca semua baris dapat dengan menggunakan perulangan while untuk memanggil fungsi `fgets()`
 - Cara membaca semua baris dalam file:
   ```c
   while (fgets(buff, sizeof(buff), fptr) != NULL) {
@@ -582,12 +592,14 @@ int main() {
   }
   ```
 
-#### **3. Menulis dalam File**
+**3. Menulis dalam File**
 - Digunakan fungsi `fputs()` untuk menulis teks ke dalam file.
-  - Contoh menulis ke file:
+- Fungsi ini menulis teks ke file yang dibuka dalam mode tulis atau tambah.
+  - `w` : Membuka file untuk menulis, file yang sudah ada akan ditimpa.
+  - `a` : Membuka file untuk menambahkan isi baru, tanpa menghapus konten yang ada
+- Untuk menulis beberapa baris ke dalam file, kita bisa memanggil fputs() berkali-kali, setiap kali menulis satu baris.
+- Contoh menulis ke file:
     ```c
     FILE *fptr = fopen("file.txt", "w");
     fputs("Ini baris pertama.\n", fptr);
     ```
-- Menulis banyak baris:
-  - Panggil `fputs()` berulang kali, atau gunakan perulangan.
