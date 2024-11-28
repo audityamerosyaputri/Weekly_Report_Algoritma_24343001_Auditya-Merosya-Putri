@@ -330,51 +330,59 @@ Secara umum, dibagi menjadi dua kelompok flow control, Yaitu:
 
 
 
-### Modul 7 - _Array_
+### Joob Sheet 7 - _Array_
 
 **Tujuan Pembelajaran:**
-1. Mampu menjelaskan dan mengimplementasikan Data Structure: Array dalam
-pemrograman menggunakan IDE.
-**Pokok Materi:**
+1. Mampu menjelaskan dan mengimplementasikan Data Structure: Array dalam pemrograman menggunakan IDE.
 
-**A. Array**
-Array adalah struktur data yang digunakan untuk menyimpan sekumpulan data dalam satu tempat dalam. Array terdiri dari ssetiap elemen dalam array memiliki indeks yang dimulai dari nol (0), yang memudahkan dalam mengakses atau mengganti datanya.
+**Pokok Materi:**
+**Array**
+Array adalah struktur data yang digunakan untuk menyimpan sekumpulan data dengan tipe yang sama dalam satu tempat. Setiap elemen dalam array memiliki indeks yang dimulai dari nol (0), yang memudahkan dalam mengakses atau mengganti datanya.
 
 **Cara Membuat Variabel Array:**
 - Membuat array mirip dengan membuat variabel biasa, tetapi perlu menentukan panjang array dengan kurung siku [ ].
 
 **Cara Mengakses Data Array:**
-- Data dalam array diakses menggunakan indeks, mulai dari nol. Misalnya, `huruf[2]` mengakses elemen ketiga dari array `huruf`.
+- Data dalam array diakses menggunakan indeks, mulai dari nol. Misalnya, `makanan[7]` mengakses elemen ketiga dari array `makanan`.
 
 **Merubah Data pada Array:**
 - Data dalam array dapat diubah dengan mengakses elemen menggunakan indeks dan memberikan nilai baru.
+- Contoh
+  ```c
+  angka[2] = 10;  // Mengubah nilai array pada indeks 2 menjadi 10
+  ```
 
 **Menggunakan Perulangan dengan Array:**
-- Untuk menghemat waktu dan usaha, terutama jika jumlah data besar, perulangan (loop) digunakan untuk mengakses atau memproses elemen array.
-
-**Contoh Program Menghitung Rata-Rata:**
+- Jika array berisi banyak data, kita bisa menggunakan perulangan untuk mengakses atau memproses elemen array. Perulangan (loop) digunakan untuk menghemat waktu dan usaha dalam program.
+  
+**Contoh Program Nilai:**
 ```c
 #include <stdio.h>
 
 void main() {
-    int tinggi_badan[10] = {175, 165, 166, 157, 184, 156, 163, 176, 171, 169};
-    int length = sizeof(tinggi_badan) / sizeof(*tinggi_badan);
-    int sum = 0;
+    //Membuat array kosong
+    int nilai[5];
 
-    for(int i = 0; i < length; i++) {
-        sum += tinggi_badan[i];
+    //Mengisi array
+    nilai[0] = 32;
+    nilai[1] = 42;
+    nilai[2] = 76;
+    nilai[3] = 31;
+    nilai[4] = 57;
+
+    //Mencetak isi array dengan perulangan
+    for(int i = 0; i < 5; i++) {
+        printf("Nilai ke-1: %d\n", nilai[i]);
     }
-
-    float rata_rata = (float)sum / (float)length;
-    printf("Rata-rata tinggi badan: %.2f\n", rata_rata);
-}
 ```
+**Mengambil Panjang Array**
+- Untuk mengambil panjang atau ukuran array bisa dengan fungsi sizeof(), dimana sizeof() akan mengambil ukuran memori dari array. 
 
 **Array Multidimensi:**
-- Array juga bisa dibuat dalam dua dimensi atau lebih, sering digunakan untuk membuat matriks. Misalnya, array dua dimensi untuk matriks.
+- Array juga bisa dibuat dalam dua dimensi atau lebih, sering digunakan untuk membuat matriks. Mengakses elemen array dua dimensi dilakukan dengan dua indeks.
 
 **String:**
-- String adalah array karakter. Beberapa fungsi penting dalam penanganan string adalah:
+- String adalah array dari karakter(`char`) yang dimanipulasi dengan menggunakan fungsi `string.h`. Fungsi `string.h` merupakan library yang menyimpan fungsi-fungsi yang digunakan untuk menangani string ataupun substring. Beberapa fungsi penting dalam penanganan string adalah:
   - `strcpy()`: Mengkopi string.
   - `strcat()`: Menambahkan string di belakang string lain.
   - `strlen()`: Menghitung panjang string.
