@@ -19,13 +19,7 @@ About Me</a>
 ## Penjelasan Singkat Semua Modul
 
 ### Joob Sheet 1 - _Algoritma, Pemrograman, dan IDE_
-
-**1. Tujuan Pembelajaran**
-1. Memahami dan mengaplikasikan algoritma melalui pemrograman.
-2. Memahami cara instalasi, fungsi, dan penggunaan IDE (Integrated Development Environment).
-3. Membuat, mengkompilasi, dan menganalisis kesalahan dalam pemrograman menggunakan IDE.
-
-**2. Pokok Materi**
+**Pokok Materi**
 1. **Algoritma**:
    - Algoritma adalah urutan langkah-langkah yang disusun secara sistematis dan logis untuk menyelesaikan suatu masalah. Algoritma mempunyai enam karakteristik penting:       terbatas, definitif, masukan, keluaran, efektif, dan terstruktur.
 2. **Pemprograman**:
@@ -47,15 +41,29 @@ About Me</a>
    Untuk mulai memrogram dengan bahasa C membutuhkan dua alat utama:
    - Teks Editor: Untuk menulis kode program.
    - Compiler: Untuk mengubah kode C menjadi bahasa mesin yang dapat dimengerti oleh komputer.
+
+Ada latihan pemprograman pada joob sheet ini, yaitu:
+
+1. Pertanyaan mengenai algoritma, pemrograman, program, programmer, dan IDE?
+
+Jawab :
+**Algoritma** adalah urutan langkah-langkah yang disusun secara sistematis dan logis untuk menyelesaikan suatu masalah atau mencapai suatu tujuan tertentu. Sebuah algoritma mempunyai awal dan akhir.
+
+**Pemrograman** diartikan sebuah tindakan atau aktivitas penulisan, menguji, memperbaiki, dan memelihara kode yang dipahami oleh komputer. Pemrograman adalah proses penulisan kode menjadi sebuah program. Dengan hal ini kita dapat memahami dan membedakan antara pemrograman, Bahasa pemrograman, program, programmer dan algoritma.
+
+**Program** adalah hasil penulisan kode-kode perintah, Dimana terdapat serangkaian instruksi yang ditulis untuk melakukan suatu fungsi spesifik, nyata, sistematis dan terpadu untuk mencapai tujuan dan sasaran. Algoritma dan stuktur data akan menjadi sebuah program. Komputer pada dasarnya membutuhkan keberadaan program agar bisa menjalankan fungsinya sebagai komputer, biasanya hal ini dilakukan dengan cara mengeksekusi serangkaian instruksi program tersebut pada processor. 
+
+**Programmer** adalah sebuah sebutan bagi orang yang ahli dalam mengerjakan, membuat dan menciptakan sebuah aplikasi / program dari bahasa-bahasa pemprograman.
+
+**IDE atau Integrated Development Environment** adalah software atau perangkat lunak yang digunakan oleh programmer untuk membuat sebuah program komputer atau sebagai tempat pengembangan aplikasi. IDE ini memiliki compiler dan debugger. IDE atau Integrated Development Environment adalah software atau
+perangkat lunak yang digunakan oleh programmer untuk membuat sebuah
+program komputer atau sebagai tempat pengembangan aplikasi.
+
+2. **Hello World!**, program yang paling sederhana dimana program ini akan menampilkan satu teks 'hello world!'.Tujuannya untuk memperkenalkan sintaks dasar dan struktur program dalam bahasa tersebut.
      
 
 
 ### Joob Sheet 2 - _Pemrograman Dasar C_
-
-**Tujuan Pembelajaran**
-1. Mampu memahami struktur dasar penulisan bahasa pemrograman C.
-2. Mampu mengimplementasikan Basic Syntax C, Proses Input & Ouput dalam pemrograman menggunakan IDE.
-
 **Pokok Materi**
 1. **Struktur Dasar Program C**
    
@@ -84,13 +92,17 @@ About Me</a>
      - **`printf`:** Fungsi utama untuk mencetak teks atau variabel ke layar dalam bentuk teks (string).
      - **`puts`:** Fungsi yang mencetak teks atau variabel tanpa memerlukan format(otomatis menambahkan baris baru).
 
+Latihan pada joob sheet ini, yaitu:
+
+1. **Program sambutan pengguna**, program yang berfungsi untuk meminta input nama lengkap dari pengguna dan kemudian menampilkan pesan sambutan menggunakan nama tersebut.Program ini bertujuan untuk berinteraksi dengan penggunanya.
+2. **Program kalkulator nilai mahasiswa**, program ini untuk menghitung nilai akhir seorang mahasiswa berdasarkan input dari beberapa komponen nilai, yaitu Nilai Praktikum, Nilai UTS (Ujian Tengah Semester), dan Nilai UAS (Ujian Akhir Semester). Program ini akan meminta input berupa Nama, NIM, Program Studi, Fakultas, dan nilai-nilai terkait dan kemudian menghitung Nilai Akhir dengan formula yang telah diberikan.
+3. **Program menghitung luas dari segitiga**, program sederhana yang memungkinkan pengguna untuk memasukkan nilai alas dan tinggi segitiga, kemudian menghitung luasnya berdasarkan rumus: `Luas Segitiga=12×Alas×Tinggi`. Dimana pada program ini sudah diketahui bahwa panjang alas segitiga adalah 8 cm dan tinggi segitiga adalah 5 cm, maka dapat langsung menghitung luas segitiga dengan rumus.
+4. **Program menghitung luas persegi panjang**, program ini merupakan program yang sangat sederhana. Yang memungkinkan kita untuk menghitung luas persegi panjang dengan rumus:
+`Luas Persegi Panjang=Panjang×Lebar`. Dimana sudah diketahui panjang = 10 cm dan lebar = 5 cm, sehingga langsung menggunakan rumus di atas untuk menghitung luasnya.
+
 
 
 ### Joob Sheet 3 - _Variabel, Konsanta, dan Tipe Data_
-
-**Tujuan Pembelajaran**
-1. Mampu menjelaskan dan mengimplementasikan Variables, Constanta, Tipe Data, Konversi Tipe Data, Keywords dalam pemrograman menggunakan IDE.
-
 **Pokok Materi**
 1. **Variabel**
    - Tempat penyimpanan sementara untuk nilai yang digunakan dalam program.
@@ -142,14 +154,16 @@ About Me</a>
    - Kata kunci bawaan bahasa C yang memiliki fungsi khusus, seperti `int`, `return`, `void`, dll.
    - Tidak dapat digunakan sebagai nama variabel.
 
+Latihan pemprograman pada joob sheet ini, yaitu:
+
+1. **Program Konversi Mata Uang Rupiah ke Dollar*, Program ini bertujuan untuk mengkonversi mata uang Rupiah (Rp) ke Dollar Amerika ($) dengan menggunakan kurs yang sudah ditentukan pada soal latihan. Dalam kasus ini, 1 Dollar (USD) setara dengan Rp 14.250. Jika seseorang membawa uang Rp 2.500.000 dan ingin menukarkannya ke Dollar, maka program ini akan menghitung berapa Dollar yang akan diterima berdasarkan kurs yang diberikan.
+2. **Program konversi suhu**, Program ini bertujuan untuk mengkonversi suhu dari Celcius ke tiga skala suhu lain, yaitu Kelvin (K), Fahrenheit (°F), dan Reamur (°Re). Program ini akan meminta pengguna untuk memasukkan suhu dalam Celcius (°C). Program kemudian akan melakukan perhitungan untuk mengkonversi suhu tersebut ke dalam Kelvin (K), Fahrenheit (°F), dan Reamur (°Re) berdasarkan rumus yang sudah ditentukan. Hasil konversi akan ditampilkan sebagai output.
+3.  **Program luas permukaan dan volume bola**, program ini menerima diameter bola yang telah ditentukan sebelumnya, yaitu 12 cm. Program menghitung jari-jari bola dengan membagi diameter dengan 2. Kemudian, program menghitung volume bola dengan rumus volume bola, dan luas permukaan bola dengan rumus luas permukaan bola menggunakan konstanta π. Setelah perhitungan, program menampilkan hasil volume dan luas permukaan bola dengan format yang jelas. Didefinisikan π sebagai konstanta menggunakan #define PI 3.14159, kita memastikan bahwa program selalu menggunakan nilai yang tepat setiap kali kita perlu menghitung sesuatu yang melibatkan π.
+
 
 
 ### Joob Sheet 4 - _Operator_
-
-### **Tujuan Pembelajaran:**
-1. Mampu menjelaskan dan mengimplementasikan Operator dalam pemrograman menggunakan IDE.
-   
-### **Pokok Materi:**
+**Pokok Materi:**
 **`Operator`** adalah  Simbol yang digunakan untuk melakukan operasi tertentu.
 Berdasarkan jumlah operand(**Operand** adalah nilai asal yang dipakai dalam sebuah proses operasi), operator dibagi menjadi 3 jenis:
 1) Operator Unary, mempunyai 1 operand
@@ -225,11 +239,7 @@ Berdasarkan jumlah operand(**Operand** adalah nilai asal yang dipakai dalam sebu
 
 
 ### Joob Sheet 5 - _Flow Control: Decision Making_
-
-### **Tujuan Pembelajaran:**
-1.Mampu menjelaskan dan mengimplementasikan Flow Control: Pengambilan Keputusan dalam pemrograman menggunakan IDE.
-
-### **Pokok Materi:**
+**Pokok Materi:**
 **`Flow Control`** adalah merupakan pernyataan yang memungkinkan pemrogram untuk mengubah jalur eksekusi normal melalui program.
 
 1. **If Statement:**
