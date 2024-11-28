@@ -1,0 +1,12 @@
+Mahasiswa ke-1
+Nama           : Auditya Merosya Putri
+NIM            : 24343001
+Jurusan        : Elektronika
+Program Studi  : Informatika
+-----------------------------
+Mahasiswa ke-2
+Nama           : Rahma Huseini
+NIM            : 24037043
+Jurusan        : Statistika
+Program Studi  : Statistika
+-----------------------------
