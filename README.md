@@ -385,20 +385,19 @@ void main() {
 
 
 
-### Modul 8 - Fungsi dan Prosedur
-
-**Rangkuman Job Sheet 8 - Fungsi & Prosedur**
+### Joob Sheet 8 - _Fungsi dan Prosedur_
 
 **Tujuan Pembelajaran:**
-1. Memahami dan mengimplementasikan Function & Procedure dalam pemrograman menggunakan IDE.
+1. Mampu menjelaskan dan mengimplementasikan Function & Procedure dalam pemrograman menggunakan IDE
 
 **Pokok Materi:**
 
-**A. Pengertian Fungsi:**
-Fungsi adalah sub-program yang bisa digunakan kembali di dalam program itu sendiri maupun di program lain. Fungsi utama dalam C adalah `main()`, yang wajib ada di setiap program karena akan dieksekusi pertama kali.
+**Pengertian Fungsi:**
+Fungsi adalah sub-program yang bisa digunakan kembali di dalam program itu sendiri maupun di program lain. Fungsi yang sering digunakan dalam C adalah `main()`.Fungsi ini memang wajib ada di setiap program C karena akan dieksekusi pertama kali. Fungsi biasanya mengembalikan nilai dari hasil prosesnya, tergantung dengan tipe data yang digunakan. Apabila tidak mengembalikan nilai maka menggunakan fungsi `void()`. 
 
-**Fungsi dengan Parameter:**
-Parameter adalah variabel yang menyimpan nilai untuk diproses dalam fungsi.
+**Fugsi dengan Parameter**
+Parameter adalah variabel yang menyimpan nilai untuk diproses di dalam fungsi. Parameter akan menyimpan nilai yang akan diinputkan ke dalam fungsi.
+
 ```c
 #include <stdio.h>
 void greet(char name[]) {
@@ -412,7 +411,8 @@ int main() {
 ```
 
 **Fungsi yang Mengembalikan Nilai:**
-Fungsi dapat mengembalikan nilai dengan menggunakan kata kunci `return`.
+Fungsi ini menggunakan kata kunci return untuk mengembalikan nilai kepada pemanggilnya.
+
 ```c
 #include <stdio.h>
 int add(int a, int b) {
@@ -427,7 +427,8 @@ int main() {
 ```
 
 **Fungsi Rekursif:**
-Fungsi yang memanggil dirinya sendiri.
+Fungsi yang memanggil dirinya sendiri. Pada fungsi rekursif, fungsi itu akan memanggil dirinya sendiri di dalam tubuh fungsi.
+
 ```c
 #include <stdio.h>
 int factorial(int n) {
@@ -443,20 +444,11 @@ int main() {
 
 **Variabel Lokal & Global:**
 Variabel global bisa diakses dari semua fungsi, sedangkan variabel lokal hanya bisa diakses dari dalam fungsi itu sendiri.
-```c
-#include <stdio.h>
-int global_var = 9;
-
-int main() {
-    int local_var = 7;
-    printf("Global: %d, Lokal: %d\n", global_var, local_var);
-    return 0;
-}
-```
 
 **Pass by Value & Pass by Reference:**
-- **Pass by Value:** Mengirimkan nilai ke parameter.
-- **Pass by Reference:** Mengirimkan alamat memori ke parameter.
+- **Pass by Value:** Mengirimkan nilai ke parameter dan tidak mengubah nilai variabel asli.
+- **Pass by Reference:** Mengirimkan alamat memori dari variabel ke parameter dan perubahan parameter mempengaruhi nilai variabel asli.
+
 ```c
 #include <stdio.h>
 void kali_dua(int *angka) {
@@ -473,42 +465,23 @@ int main() {
 
 
 
-### Modul 9 - _Pointer_
-
-**Rangkuman Job Sheet 9 - Pointer**
+### Joob Sheet 9 - _Pointer_
 
 **Tujuan Pembelajaran:**
 1. Mampu menjelaskan dan mengimplementasikan Pointer dalam pemrograman menggunakan IDE.
 
 **Pokok Materi:**
-1. Pengertian Pointer
-2. Penggunaan Pointer
-3. Pointer untuk pass by reference
-4. Pointer untuk mengakses array
-
-**Penjelasan Materi:**
-
-**A. Pengertian Pointer:**
-Setiap variabel dalam program memiliki alamat memori yang digunakan untuk menyimpan data. Alamat memori ini sering disebut reference atau referensi. Pointer adalah variabel yang berisi alamat memori dari variabel lain, memungkinkan akses data pada alamat tersebut.
+**A.Pointer:**
+Setiap variabel dalam program memiliki alamat memori yang digunakan untuk menyimpan data. Alamat memori ini sering disebut reference atau referensi. Alamat memori berfungsi untuk menentukan lokasi penyimpanan data pada memori (RAM). Pointer memungkinkan untuk mengakses dan memanipulasi data pada alamat memori tersebut.
 
 **Penggunaan Pointer:**
-Pointer dibuat dengan menambahkan simbol `*` di depan nama variabel, kemudian diisi dengan alamat memori variabel lain menggunakan simbol `&`.
+Pointer dibuat dengan menambahkan simbol asterik (`*`) di depan nama variabel, kemudian diisi dengan alamat memori variabel lain menggunakan simbol `&` untuk mendapatkan alamat memori dari variabel.
 
 **Mengakses Data dengan Pointer:**
 Pointer dapat digunakan untuk mengubah data pada alamat memori yang direferensikan.
-```c
-#include <stdio.h>
-int main() {
-    int score = 10;
-    int *p = &score;
-    *p = 20;
-    printf("Nilai score: %d\n", score);
-    return 0;
-}
-```
 
 **Pass by Reference Menggunakan Pointer:**
-Menggunakan pointer untuk mengirimkan alamat memori variabel sebagai parameter fungsi, sehingga memungkinkan fungsi mengubah nilai variabel tersebut.
+Menggunakan pointer untuk pass by reference dengan mengirimkan alamat memori variabel sebagai parameter fungsi, sehingga memungkinkan fungsi mengubah nilai variabel tersebut tanpa mengembalikan nilai dari fungsi tersebut.
 ```c
 #include <stdio.h>
 void add_five(int *num) {
@@ -539,7 +512,7 @@ int main() {
 
 
 
-### Modul 10 - Enumerasi dan Struktur
+### Joob Sheet 10 - _Enumerasi dan Struktur_
 
 ### **Tujuan Pembelajaran**
 1. Memahami dan mengimplementasikan Enum dan Structure dalam pemrograman menggunakan IDE.
