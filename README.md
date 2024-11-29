@@ -59,7 +59,7 @@ Jawab :
 perangkat lunak yang digunakan oleh programmer untuk membuat sebuah
 program komputer atau sebagai tempat pengembangan aplikasi.
 
-2. **Hello World!**, program yang paling sederhana dimana program ini akan menampilkan satu teks 'hello world!'.Tujuannya untuk memperkenalkan sintaks dasar dan struktur program dalam bahasa tersebut.
+2. **Hello World!:** program yang paling sederhana dimana program ini akan menampilkan satu teks 'hello world!'.Tujuannya untuk memperkenalkan sintaks dasar dan struktur program dalam bahasa tersebut.
      
 
 
@@ -94,10 +94,10 @@ program komputer atau sebagai tempat pengembangan aplikasi.
 
 Latihan pada joob sheet ini, yaitu:
 
-1. **Program sambutan pengguna**, program yang berfungsi untuk meminta input nama lengkap dari pengguna dan kemudian menampilkan pesan sambutan menggunakan nama tersebut.Program ini bertujuan untuk berinteraksi dengan penggunanya.
-2. **Program kalkulator nilai mahasiswa**, program ini untuk menghitung nilai akhir seorang mahasiswa berdasarkan input dari beberapa komponen nilai, yaitu Nilai Praktikum, Nilai UTS (Ujian Tengah Semester), dan Nilai UAS (Ujian Akhir Semester). Program ini akan meminta input berupa Nama, NIM, Program Studi, Fakultas, dan nilai-nilai terkait dan kemudian menghitung Nilai Akhir dengan formula yang telah diberikan.
-3. **Program menghitung luas dari segitiga**, program sederhana yang memungkinkan pengguna untuk memasukkan nilai alas dan tinggi segitiga, kemudian menghitung luasnya berdasarkan rumus: `Luas Segitiga=12×Alas×Tinggi`. Dimana pada program ini sudah diketahui bahwa panjang alas segitiga adalah 8 cm dan tinggi segitiga adalah 5 cm, maka dapat langsung menghitung luas segitiga dengan rumus.
-4. **Program menghitung luas persegi panjang**, program ini merupakan program yang sangat sederhana. Yang memungkinkan kita untuk menghitung luas persegi panjang dengan rumus:
+1. **Program sambutan pengguna:** program yang berfungsi untuk meminta input nama lengkap dari pengguna dan kemudian menampilkan pesan sambutan menggunakan nama tersebut.Program ini bertujuan untuk berinteraksi dengan penggunanya.
+2. **Program kalkulator nilai mahasiswa:** program ini untuk menghitung nilai akhir seorang mahasiswa berdasarkan input dari beberapa komponen nilai, yaitu Nilai Praktikum, Nilai UTS (Ujian Tengah Semester), dan Nilai UAS (Ujian Akhir Semester). Program ini akan meminta input berupa Nama, NIM, Program Studi, Fakultas, dan nilai-nilai terkait dan kemudian menghitung Nilai Akhir dengan formula yang telah diberikan.
+3. **Program menghitung luas dari segitiga:** program sederhana yang memungkinkan pengguna untuk memasukkan nilai alas dan tinggi segitiga, kemudian menghitung luasnya berdasarkan rumus: `Luas Segitiga=12×Alas×Tinggi`. Dimana pada program ini sudah diketahui bahwa panjang alas segitiga adalah 8 cm dan tinggi segitiga adalah 5 cm, maka dapat langsung menghitung luas segitiga dengan rumus.
+4. **Program menghitung luas persegi panjang:** program ini merupakan program yang sangat sederhana. Yang memungkinkan kita untuk menghitung luas persegi panjang dengan rumus:
 `Luas Persegi Panjang=Panjang×Lebar`. Dimana sudah diketahui panjang = 10 cm dan lebar = 5 cm, sehingga langsung menggunakan rumus di atas untuk menghitung luasnya.
 
 
@@ -156,9 +156,9 @@ Latihan pada joob sheet ini, yaitu:
 
 Latihan pemprograman pada joob sheet ini, yaitu:
 
-1. **Program Konversi Mata Uang Rupiah ke Dollar*, Program ini bertujuan untuk mengkonversi mata uang Rupiah (Rp) ke Dollar Amerika ($) dengan menggunakan kurs yang sudah ditentukan pada soal latihan. Dalam kasus ini, 1 Dollar (USD) setara dengan Rp 14.250. Jika seseorang membawa uang Rp 2.500.000 dan ingin menukarkannya ke Dollar, maka program ini akan menghitung berapa Dollar yang akan diterima berdasarkan kurs yang diberikan.
-2. **Program konversi suhu**, Program ini bertujuan untuk mengkonversi suhu dari Celcius ke tiga skala suhu lain, yaitu Kelvin (K), Fahrenheit (°F), dan Reamur (°Re). Program ini akan meminta pengguna untuk memasukkan suhu dalam Celcius (°C). Program kemudian akan melakukan perhitungan untuk mengkonversi suhu tersebut ke dalam Kelvin (K), Fahrenheit (°F), dan Reamur (°Re) berdasarkan rumus yang sudah ditentukan. Hasil konversi akan ditampilkan sebagai output.
-3.  **Program luas permukaan dan volume bola**, program ini menerima diameter bola yang telah ditentukan sebelumnya, yaitu 12 cm. Program menghitung jari-jari bola dengan membagi diameter dengan 2. Kemudian, program menghitung volume bola dengan rumus volume bola, dan luas permukaan bola dengan rumus luas permukaan bola menggunakan konstanta π. Setelah perhitungan, program menampilkan hasil volume dan luas permukaan bola dengan format yang jelas. Didefinisikan π sebagai konstanta menggunakan #define PI 3.14159, kita memastikan bahwa program selalu menggunakan nilai yang tepat setiap kali kita perlu menghitung sesuatu yang melibatkan π.
+1. **Program Konversi Mata Uang Rupiah ke Dollar:** Program ini bertujuan untuk mengkonversi mata uang Rupiah (Rp) ke Dollar Amerika ($) dengan menggunakan kurs yang sudah ditentukan pada soal latihan. Dalam kasus ini, 1 Dollar (USD) setara dengan Rp 14.250. Jika seseorang membawa uang Rp 2.500.000 dan ingin menukarkannya ke Dollar, maka program ini akan menghitung berapa Dollar yang akan diterima berdasarkan kurs yang diberikan.
+2. **Program konversi suhu:** Program ini bertujuan untuk mengkonversi suhu dari Celcius ke tiga skala suhu lain, yaitu Kelvin (K), Fahrenheit (°F), dan Reamur (°Re). Program ini akan meminta pengguna untuk memasukkan suhu dalam Celcius (°C). Program kemudian akan melakukan perhitungan untuk mengkonversi suhu tersebut ke dalam Kelvin (K), Fahrenheit (°F), dan Reamur (°Re) berdasarkan rumus yang sudah ditentukan. Hasil konversi akan ditampilkan sebagai output.
+3.  **Program luas permukaan dan volume bola:** program ini menerima diameter bola yang telah ditentukan sebelumnya, yaitu 12 cm. Program menghitung jari-jari bola dengan membagi diameter dengan 2. Kemudian, program menghitung volume bola dengan rumus volume bola, dan luas permukaan bola dengan rumus luas permukaan bola menggunakan konstanta π. Setelah perhitungan, program menampilkan hasil volume dan luas permukaan bola dengan format yang jelas. Didefinisikan π sebagai konstanta menggunakan #define PI 3.14159, kita memastikan bahwa program selalu menggunakan nilai yang tepat setiap kali kita perlu menghitung sesuatu yang melibatkan π.
 
 
 
@@ -220,14 +220,7 @@ Berdasarkan jumlah operand(**Operand** adalah nilai asal yang dipakai dalam sebu
    - NOT (`~`): Membalik setiap bit.
    - Left Shift (`<<`): Menggeser bit ke kiri.
    - Right Shift (`>>`): Menggeser bit ke kanan.
-
-   **Contoh:**
-   - Misalkan kita punya nilai 6 dan 3. Nilai 6 dan 3 kemudian kita ubah ke dalam bentuk bilangan biner. Sehingga akan menjadi seperti ini:
-   ```c
-   6 = 0110
-   3 = 0011
-   ```
-   
+      
 7. **Operator Lain-Lain:**
    Operator tambahan dalam pemrograman:
    - Alamat memori (`&`): Mengambil alamat suatu variabel.
@@ -235,6 +228,16 @@ Berdasarkan jumlah operand(**Operand** adalah nilai asal yang dipakai dalam sebu
    - Ternary (`? :`): Percabangan sederhana seperti `if-else`.
    - Increment (`++`): Menambah nilai dengan 1.
    - Decrement (`--`): Mengurangi nilai dengan 1.
+
+
+Latihan pemprograman pada joob sheet ini,yaitu:
+1. **Program konversi waktu:** program ini meminta pengguna untuk memasukkan jumlah waktu dalam detik. Kemudian perhitungan menggunakan pembagian integer dan modula untuk mendapatkan jumlah waktu dalam bentuk jam, menit, dan detik sesuai dengan perhitungan yang telah dilakukan.
+2. **Program kasir barang:** program ini dirancang untuk menghitung total harga barang yang dibeli oleh seorang pembeli, serta mencatat informasi terkait pembelian tersebut. Program meminta penguna untuk menginputkan data diri berupa nama pembeli, nama barang, harga per satuan, dan jumlah barang yang dibeli.Kemudia  melakukan proses untuk mengeluarkan jumlah harga total dari total barang yang dibeli.
+3. **Program nilai akhir:** Program ini digunakan untuk menghitung nilai akhir dari praktikum pemrograman C berdasarkan empat komponen nilai: Nilai Presensi (dengan bobot 10%), Nilai Praktek (dengan bobot 20%), Nilai UTS (dengan bobot 30%), dan Nilai UAS (dengan bobot 40%). Program akan meminta input pengguna sesuai dnegna data komponen nilai dengan bobot yang sudah ditetapkan. Program akan menghitung nilai akhir dengan cara mengalikan masing-masing nilai dengan bobot yang sesuai, kemudian menjumlahkan hasilnya untuk mendapatkan nilai akhir.
+4. **Program rental film:** Program ini bertujuan untuk menghitung biaya total sewa film berdasarkan durasi waktu yang digunakan untuk menonton film. Dimana biaya sewa film memiliki dua aturan tarif:
+   - Tarif untuk 1 jam pertama: Rp 15.000.
+   - Tarif untuk jam berikutnya: 50% dari tarif 1 jam pertama, yaitu Rp 7.500 per jam.
+Program ini akan menghitung biaya total berdasarkan durasi yang dimasukkan oleh pengguna, di mana biaya untuk jam pertama selalu Rp 15.000, dan biaya untuk setiap jam setelahnya dihitung dengan tarif diskon 50% dari tarif jam pertama.
 
 
 
@@ -254,18 +257,6 @@ Berdasarkan jumlah operand(**Operand** adalah nilai asal yang dipakai dalam sebu
 3. **If Else If Statement:**
    - Memiliki lebih dari dua blok pilihan.
    - Digunakan untuk beberapa kondisi secara berurutan dan dimulai dari yang terbesar ke kecil.
-   - Contoh:
-```c
-     if (nilai >= 80) {
-    grade = 'A';
-} else if (nilai >= 70) {
-    grade = 'B';
-} else if (nilai >= 60) {
-    grade = 'C';
-} else {
-    grade = 'D';
-}
-```
 
 5. **Switch Case:**
    - Alternatif dari if/else/if untuk membandingkan nilai variabel dengan beberapa case.
@@ -282,6 +273,9 @@ Berdasarkan jumlah operand(**Operand** adalah nilai asal yang dipakai dalam sebu
 7. **Percabangan Bersarang (Nested If):**
    - Penggunaan blok **if** di dalam blok **if** lainnya.
    - Digunakan untuk keputusan kompleks dengan banyak kondisi.
+
+Latihan pemprograman pada joob sheet ini, yaitu:
+1. 
 
 
 
