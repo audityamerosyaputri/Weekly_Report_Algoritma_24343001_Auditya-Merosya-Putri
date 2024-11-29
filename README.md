@@ -275,16 +275,15 @@ Program ini akan menghitung biaya total berdasarkan durasi yang dimasukkan oleh 
    - Digunakan untuk keputusan kompleks dengan banyak kondisi.
 
 Latihan pemprograman pada joob sheet ini, yaitu:
-1. 
-
+1. **Program kalkulator sederhana:** program ini menggunakan `switch-case` dan `if-else` untuk meminta menginputkan proses aritmatika yang ingin dilakukannya. Kemudian pengguna nanti akan diminta untuk menginputkan dua angka untuk diproses dengan proses aritmatika yang sudah dipilih sebelumnya dan dikeluarkan hasil dari proses tersebut.
+2. **Program dikson dengan nama TOSERBA:** Program TOSERBA, yang berfungsi sebagai sistem kasir untuk menghitung total pembelian dan memberikan diskon berdasarkan ketentuan tertentu. Program ini akan menerima input dari pengguna mengenai pembelian dan menghitung total harga setelah diskon, jika ada. Ketentuan diskon yang diberikan kepad apengguna diberikan dengan menggunakan percabangan `if-else`.
+3. **Program luas permukaan bangunan geometri:** Program kalkulator untuk menghitung luas permukaan berbagai bentuk geometri, termasuk bola, kubus, balok, dan tabung. Program ini menggunakan struktur kontrol `switch-case` untuk memilih rumus yang sesuai berdasarkan input dari pengguna. Menghitung luas permukaan sesuai dengan rumus yang dipilih dan menampilkan hasil perhitungan luas permukaan ke layar.
+4. **Program nilai akhir mahasiswa:** Program ini menentukan nilai akhir mahasiswa dengan menggunakan nilai kehadiran, tugas, UTS,dan UAS yang dimasukan oleh pengguna. Program nantinya akan menghitung nilai akhir dan menentukan grade. Sehingga mengeluarkan keduanya bersama dengan oesan yang berbeda-beda setiap grade yang sudah ditentukan.
+ 
 
 
 ### Joob Sheet 6 - _Flow Control: Looping_
-
-### **Tujuan Pembelajaran:**
-1. Mampu menjelaskan dan mengimplementasikan Looping: Perulangan dalam pemrograman menggunakan IDE.
-
-### **Pokok Materi:**
+**Pokok Materi:**
 **Flow control** adalah konstruksi aliran kontrol yang memungkinkan sepotong kode untuk dieksekusi secara berulang kali hingga beberapa kondisi terpenuhi. Berguna untuk menghindari penulisan kode yang berulang-ulang, yang meningkatkan efisiensi penulisan program. **Efisiensi Perulangan** adalah perulangan bisa menghemat waktu dan kode, memungkinkan program mencetak ribuan keluaran tanpa menulis kode secara manual.
 
 Secara umum, dibagi menjadi dua kelompok flow control, Yaitu: 
@@ -331,14 +330,17 @@ Secara umum, dibagi menjadi dua kelompok flow control, Yaitu:
 5. **Perulangan Bersarang (Nested Loop)**  
    - Pengulangan di dalam pengulangan.
    - Contoh: Menggunakan dua perulangan **for** untuk mencetak pola berbasis matriks.
+  
+Latihan pemprograman pada joob sheet ini, yaitu:
+1. **Program deret bilangan:** Program ini menggunakan stuktur kontrol perulangan untuk menghasilkan urutan bilangan genap dan bilangan ganjil dari 0-50.
+2. **Program segitiga:** Program ini meminta penggguna untuk mengeluarkan output segitiga dengan menggunakan perulangan bersarang dengan output yang bermotif esteriks `*`.
+3. **Program Segitiga dengan angka:** Program ini hampir sama dengan program nomor dua, yang membedakannya ada pada motif output yang ditampilkan dimana pada program ini kita menghasilkann output berupa angka dengan pola berbentuk segitiga.
+4. **Program ATM:** Program ini memungkinkan pengguna untuk melakukan beberapa transaksi, seperti cek saldo, setoran, dan penarikan pada rekening Hatori. Program ini juga menerapkan kebijakan saldo minimal yang harus disisakan dalam rekening. Program akan menampilkan menu dengan pilihan untuk cek saldo, setoran, penarikan tunai, dan keluar, serta juga menampilkan saldo saat ini. Program meminta pengguna untuk memasukkan jumlah uang yang akan disetorkan dan menambahkannya ke saldo. Pengguna memasukkan jumlah uang yang akan ditarik. Program akan memeriksa apakah saldo setelah penarikan masih memenuhi batas minimal Rp. 50.000. Mengakhiri program. Program ini menggunakan perulangan `do-while` untuk memungkinkan pengguna melakukan aksi yang berulang kali dan percabangan `switch-case` untuk validasi data yang tepat.
+ 
 
 
 
 ### Joob Sheet 7 - _Array_
-
-**Tujuan Pembelajaran:**
-1. Mampu menjelaskan dan mengimplementasikan Data Structure: Array dalam pemrograman menggunakan IDE.
-
 **Pokok Materi:**
 **Array**
 Array adalah struktur data yang digunakan untuk menyimpan sekumpulan data dengan tipe yang sama dalam satu tempat. Setiap elemen dalam array memiliki indeks yang dimulai dari nol (0), yang memudahkan dalam mengakses atau mengganti datanya.
@@ -358,22 +360,7 @@ Array adalah struktur data yang digunakan untuk menyimpan sekumpulan data dengan
 
 **Menggunakan Perulangan dengan Array:**
 - Jika array berisi banyak data, kita bisa menggunakan perulangan untuk mengakses atau memproses elemen array. Perulangan (loop) digunakan untuk menghemat waktu dan usaha dalam program.
-  
-**Contoh Program Nilai:**
-```c
-#include <stdio.h>
-
-void main() {
-    // Membuat array dan mengisi nilai
-    int nilai[5] = {32, 42, 76, 31, 57};
-
-    // Mencetak isi array dengan perulangan
-    for(int i = 0; i < 5; i++) {
-        printf("Nilai ke-%d: %d\n", i+1, nilai[i]);
-    }
-}
-
-```
+- 
 **Mengambil Panjang Array**
 - Untuk mengambil panjang atau ukuran array bisa dengan fungsi sizeof(), dimana sizeof() akan mengambil ukuran memori dari array. 
 
@@ -387,13 +374,14 @@ void main() {
   - `strlen()`: Menghitung panjang string.
   - `strcmp()`: Membandingkan dua string.
 
+Latihan pemprograman pada joob sheet ini, yaitu:
+1. **Program rata-rata nilai:** Program ini menghitung rata-rata nilai dari 20 orang mahasiswa dengan meminta pengguna untuk menginputkan nilai dari setiap mahasiswa.Lalu menyimpan setiap nilai dari 20 orang mahasiswa ke dalam array. Untuk menginputkan setiap nilai dari mahasiswa digunakan perulangan `for`.
+2. **Program nama mahasiswa:** Program ini meminta pengguna untuk memasukan jumlah mahasiswa yang akan dimasukan, Lalu meminta nama sebanyak jumlah yang sudah dimasukan pengguna sebelumnya dan menyimpannya dalam array. Setelah semua nama dimasukan sesuai dengan jumlah yang diinputkan sebelumnya, program akan menampilkan kembali array yang tadi.
+3. **Program halaman login:** Program ini adalah simulasi halaman login sederhana yang meminta pengguna untuk memasukkan username dan password. Program akan memeriksa apakah password yang dimasukkan sesuai dengan password yang benar dengan melakukan perbandingan `string` terhadap keduanya. Jika password sesuai, maka akan muncul pesan "Berhasil login". Jika password salah, akan muncul pesan "Password salah".
+
 
 
 ### Joob Sheet 8 - _Fungsi dan Prosedur_
-
-**Tujuan Pembelajaran:**
-1. Mampu menjelaskan dan mengimplementasikan Function & Procedure dalam pemrograman menggunakan IDE
-
 **Pokok Materi:**
 
 **Pengertian Fungsi:**
@@ -453,26 +441,16 @@ Variabel global bisa diakses dari semua fungsi, sedangkan variabel lokal hanya b
 - **Pass by Value:** Mengirimkan nilai ke parameter dan tidak mengubah nilai variabel asli.
 - **Pass by Reference:** Mengirimkan alamat memori dari variabel ke parameter dan perubahan parameter mempengaruhi nilai variabel asli.
 
-```c
-#include <stdio.h>
-void kali_dua(int *angka) {
-    *angka *= 2;
-}
 
-int main() {
-    int nilai = 4;
-    kali_dua(&nilai);
-    printf("Hasil: %d\n", nilai);
-    return 0;
-}
-```
+Latihan pemprograman pada joob sheet ini, yaitu:
+1. **Program perkalian dua bilangan  dengan penjumlahan:** program ini untuk menghitung hasil perkalian antara dua bilangan bulat positif menggunakan metode penjumlahan berulang dengan cara rekursif untuk menemukan hasilnya.
+2. **Program kalkulator fungsi:** program kalkulator aritmetika sederhana yang menggunakan fungsi untuk melakukan operasi dasar seperti penjumlahan, pengurangan, perkalian, dan pembagian. Program ini memungkinkan pengguna untuk memasukkan dua angka dan memilih jenis operasi yang ingin dilakukan.
+3. **Program luas dan keliling lingkaran:** Program ini menghitung luas dan kelilinglingkaran dengan menggunakan fungsi yang terpisah untuk melakukan perhitungannya. Nanti pengguna akan menginputkan jari-jarinya.
+4. **Program diskon:**Program ini meminta jumlah belanja dari pembeli, kemudia menggunakan fungsi `potongan` untuk menentukan berapa diskon yang didapat oleh pengguna dan informasi akan ditampilkan bersama dengan harga total yang harus dibayarkan oleh pengguna.
 
 
 
 ### Joob Sheet 9 - _Pointer_
-
-**Tujuan Pembelajaran:**
-1. Mampu menjelaskan dan mengimplementasikan Pointer dalam pemrograman menggunakan IDE.
 
 **Pokok Materi:**
 **A.Pointer:**
@@ -502,25 +480,15 @@ int main() {
 
 **Pointer untuk Mengakses Array:**
 Pointer dapat digunakan untuk mengakses elemen array, memudahkan manipulasi data dalam array.
-```c
-#include <stdio.h>
-int main() {
-    int arr[5] = {1, 2, 3, 4, 5};
-    int *ptr = arr;
-    for (int i = 0; i < 5; i++) {
-        printf("%d ", *(ptr + i));
-    }
-    return 0;
-}
-```
+
+Latihan pemprograman oada joob sheet ini, yaitu:
+1. **Program menampilkan kata dari belakang:** Program ini menggunakan pointer untuk menampilkan urutan karakter yang spesifik. Berdasarkan keluaran yang diinginkan (D, ND, AND, LAND, RLAND, ORLAND, BORLAND).Program ini dapat memanfaatkan pointer untuk mengakses dan membangun string secara bertahap dengan menambahkan satu karakter demi satu karakter.
+2. **Program mencetak kalimat terbalik:** Program ini meminta pengguna untuk memasukan kalimat `HELLO` dan menggunakan pointer untuk mencetak kembali kalimat `HELLO` tersebut dari akhir sampai awal atau membalik cara bacanya.
+3. **Program pengujian sifat pointer:** Program ini memiliki dua kasus yang memiliki beberapa pertanyaan mengenai nila-nilai dari variabel yang hasilnya dicetak pada layar.
 
 
 
 ### Joob Sheet 10 - _Enumerasi dan Struktur_
-
-**Tujuan Pembelajaran**
-1. Mampu menjelaskan dan mengimplementasikan Enum dan Structure dalam pemrograman menggunakan IDE.
-   
 **Pokok Materi**
 1. **Enumerasi (Enum):**
    - *Enum* adalah tipe data bentukan yang berisi sekumpulan konstanta.
@@ -560,15 +528,16 @@ int main() {
 
 6. **Passing Struct ke dalam fungsi**
    - Struct juga dapat dipassing ke dalam fungsi sebagai parameter fungsi untuk mempermudah data kompleks.
+
+
+Latihan pemprograman oada jooob sheet ini, yaitu:
+1. **Program permainan tebak angka:** Program yang Anda minta adalah sebuah game sederhana di mana komputer memilih sebuah nomor secara acak dalam rentang antara 1 dan 20, dan pemain diminta untuk menebak nomor tersebut. Program akan memberikan petunjuk berdasarkan tebakan pemain, dan memberikan feedback tentang apakah tebakan lebih besar atau lebih kecil dari nomor yang dipilih komputer. Jika tebakan benar, program akan menampilkan pesan selamat dan memberi tahu jumlah percobaan yang dilakukan pemain. Program juga memberikan opsi untuk bermain lagi atau keluar.Program ini menggunakan konsep dasar `angka acak`, `pointer`, `looping`, dan `input/output`.
+2. **Program penentu zodiak:** Program ini bertujuan untuk menentukan zodiak berdasarkan tanggal lahir seseorang. Zodiak ini dihitung berdasarkan tanggal dan bulan kelahiran yang diinput oleh pengguna. Program ini menggunakan struktur (`struct`) untuk menyimpan data tanggal lahir dan `array` untuk menyimpan rentang tanggal setiap zodiak.Serta juga menggunakan fungsi untuk menerima dua parameter, yaitu tanggal dan bulan, untuk menentukan zodiak berdasarkan input tersebut.
+3. **Program data mahasiswaa:** Program ini digunakan untuk menyimpan data mahasiswa dengan menggunakan `struct` agar memudahkan dalam menyimpan data yang beragam dalamsatu unit. Pengguna diminta untuk menginputkan data dari sebuah mahasiswa, lalu ditanyakan jika pengguna memilih iya. Program akan meminta sebuah data mahasiswa. Jika pengguna memilih tidak, program akan mengeluarkan kembali data mahasiswa yang telah dimasukan pengguna secara berturut-turut.
    
 
 
 ### Joob Sheet 11 - _File Handling in C_
-
-**Tujuan Pembelajaran**
-1. Mampu menjelaskan konsep penulisan dan pembacaan file dalam bahasa pemrograman C.
-2. Mampu mengimplementasikan operasi *write* dan *read* file menggunakan IDE.
-
 **Pokok Materi**
 
 **1. Pengantar**
@@ -602,8 +571,7 @@ int main() {
   - `w` : Membuka file untuk menulis, file yang sudah ada akan ditimpa.
   - `a` : Membuka file untuk menambahkan isi baru, tanpa menghapus konten yang ada
 - Untuk menulis beberapa baris ke dalam file, kita bisa memanggil fputs() berkali-kali, setiap kali menulis satu baris.
-- Contoh menulis ke file:
-    ```c
-    FILE *fptr = fopen("file.txt", "w");
-    fputs("Ini baris pertama.\n", fptr);
-    ```
+
+Latihan pemprograman pada joob sheet ini, yaitu:
+1. **Program biodata mahasiswa:** Program ini menggunakan perulangan, program ini meminta pengguna untuk memasukan biodata mahasiswa, kemudian menuliskan data tersebut ke dalam sebuah file dengan nama `datamahasiswa.txt`. Setelah itu setiap program melakukan perulangan untuk memastikan pengguna apa masih ingin memasukan data baru atau tidak, jika tidak program menutup file dan keluar dari program.
+
